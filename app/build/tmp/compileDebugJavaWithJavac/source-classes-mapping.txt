@@ -1,0 +1,35 @@
+com/example/tasker/Model/ToDoModel.java
+ com.example.tasker.Model.ToDoModel
+com/example/tasker/RecyclerItemTouchHelper.java
+ com.example.tasker.RecyclerItemTouchHelper
+ com.example.tasker.RecyclerItemTouchHelper$1
+ com.example.tasker.RecyclerItemTouchHelper$2
+com/example/tasker/Utils/DatabaseHandler.java
+ com.example.tasker.Utils.DatabaseHandler
+com/example/tasker/DialogCloseListener.java
+ com.example.tasker.DialogCloseListener
+com/example/tasker/MainActivity.java
+ com.example.tasker.MainActivity
+ com.example.tasker.MainActivity$1
+com/example/tasker/BuildConfig.java
+ com.example.tasker.BuildConfig
+com/example/tasker/Adapter/ToDoAdapter.java
+ com.example.tasker.Adapter.ToDoAdapter
+ com.example.tasker.Adapter.ToDoAdapter$1
+ com.example.tasker.Adapter.ToDoAdapter$ViewHolder
+com/example/tasker/AddNewTask.java
+ com.example.tasker.AddNewTask
+ com.example.tasker.AddNewTask$1
+ com.example.tasker.AddNewTask$10
+ com.example.tasker.AddNewTask$2
+ com.example.tasker.AddNewTask$3
+ com.example.tasker.AddNewTask$4
+ com.example.tasker.AddNewTask$5
+ com.example.tasker.AddNewTask$5$1
+ com.example.tasker.AddNewTask$6
+ com.example.tasker.AddNewTask$7
+ com.example.tasker.AddNewTask$8
+ com.example.tasker.AddNewTask$9
+com/example/tasker/SplashActivity.java
+ com.example.tasker.SplashActivity
+ com.example.tasker.SplashActivity$1
