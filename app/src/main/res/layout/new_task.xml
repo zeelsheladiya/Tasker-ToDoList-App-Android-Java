@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:background="@color/purple_500">
+
+    <EditText
+            android:id="@+id/newTaskText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:hint="New Task"
+            android:textColor="@color/white"
+            android:singleLine = "true"
+            android:imeOptions="actionDone"/>
+
+    <Button
+            android:id="@+id/newTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newTaskText"
+            android:textSize="16sp"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/darker_gray" />
+
+
+    <EditText
+            android:id="@+id/in_startDateTime"
+            android:layout_width="250dp"
+            android:hint="Select Start Date and Time"
+            android:inputType="none"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <EditText
+            android:id="@+id/in_endDateTime"
+            android:layout_width="250dp"
+            android:hint="Select End Date and Time"
+            android:inputType="none"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/in_startDateTime"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/white"/>
+
+</RelativeLayout>

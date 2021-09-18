@@ -1,0 +1,69 @@
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tool="http://schemas.android.com/tools"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginVertical="8dp"
+        android:outlineSpotShadowColor="@color/purple_200"
+        android:outlineAmbientShadowColor="@color/purple_500"
+        app:cardBackgroundColor="@color/purple_500">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+        <CheckBox
+                android:id="@+id/todoCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="12dp"
+                android:paddingEnd="0dp"
+                android:buttonTint="@color/purple_200"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/todoTextTitle"
+            android:text="Your New Task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"/>
+
+    <TextView
+            android:id="@+id/todoTextStartDateTime"
+            android:text="09/16/2021 2:00:00 PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/white"/>
+
+
+    <TextView
+            android:id="@+id/todoTextEndDateTime"
+            android:text="09/16/2021 3:00:00 PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="55dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/white"/>
+
+
+
+
+</androidx.cardview.widget.CardView>
